@@ -6,15 +6,15 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=spshamim" alt="spshamim" /></a> </p>
 
-- 🔭 I’m currently working on **C++**
+👉 I’m currently working on **C++**
 
-- 🌱 I’m currently learning **Python**
+👉 I’m currently learning **Python**
 
-- 👯 I’m looking to collaborate on **Github**
+👉 I’m looking to collaborate on **Github**
 
-- 💬 Ask me about **C++ and Mathematics**
+👉 Ask me about **C++ and Mathematics**
 
-- 📫 How to reach me **spshamim90@gmail.com**
+👉 How to reach me **spshamim90@gmail.com**
 
 <h1 align="left">Connect with me:</h1>
 <p align="left">
