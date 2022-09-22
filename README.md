@@ -30,4 +30,8 @@
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=spshamim)](https://github.com/anuraghazra/github-readme-stats)
 
+![GitHub Activity Graph](https://activity-graph.herokuapp.com/graph?username=spshamim)  
+
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=spshamim&" alt="spshamim" /></p>
+
+![GitHub metrics](https://metrics.lecoq.io/spshamim)  
