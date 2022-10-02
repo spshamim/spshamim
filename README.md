@@ -1,6 +1,3 @@
-![Coder](https://scontent.fdac5-2.fna.fbcdn.net/v/t39.30808-6/308421175_508869767746045_2737297464861913191_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=730e14&_nc_ohc=yD32yzs74BoAX8nNjWx&_nc_ht=scontent.fdac5-2.fna&oh=00_AT_bl_1dwmXKhGwHy4zlYV03iVZRgf6R37YMnxBrqvZIEw&oe=63305660)
-
-
 <h1 align="center">Hi 👋, I'm Shahriar Parvez Shamim</h1>
 <h3 align="center">I'm a good learner and have enough dedication to do something special. I maintain a good communication. I love to solve real-world problems.</h3>
 
