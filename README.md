@@ -25,8 +25,6 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=spshamim&label=Profile%20views&color=0e75b6&style=flat" alt="spshamim" /> </p>
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=spshamim&langs_count=5)](https://github.com/anuraghazra/github-readme-stats)
-
 ![GitHub Activity Graph](https://activity-graph.herokuapp.com/graph?username=spshamim)  
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=spshamim&" alt="spshamim" /></p>
