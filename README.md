@@ -25,6 +25,4 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=spshamim&label=Profile%20views&color=0e75b6&style=flat" alt="spshamim" /> </p>
 
-![GitHub Activity Graph](https://activity-graph.herokuapp.com/graph?username=spshamim)  
-
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=spshamim&" alt="spshamim" /></p>
