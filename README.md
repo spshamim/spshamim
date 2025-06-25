@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://github.com/spshamim/spshamim/assets/banner.png" alt="Shahriar Parvez Shamim - Full Stack Developer" width="100%">
+  <img src="https://github.com/spshamim/spshamim/assets/banner.svg" alt="Shahriar Parvez Shamim - Full Stack Developer" width="100%">
 </div>
 
 # 👋 Hello, I'm Shahriar Parvez Shamim

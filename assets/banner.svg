@@ -1,0 +1,169 @@
+<svg width="1200" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a0a;stop-opacity:1" />
+      <stop offset="25%" style="stop-color:#1a1a2e;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#16213e;stop-opacity:1" />
+      <stop offset="75%" style="stop-color:#0f3460;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0a0a0a;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Glow effects -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge> 
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <!-- Tech stack gradients -->
+    <linearGradient id="mongoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4DB33D;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3FA037;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="expressGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#000000;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#404040;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="reactGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#61DAFB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#21D4FD;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="postgreGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#336791;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2E5A87;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="dotnetGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#512BD4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7B68EE;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="sqlGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#CC2927;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E74C3C;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="nestjsGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#E0234E;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF6B6B;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="400" fill="url(#bgGradient)"/>
+  
+  <!-- Animated background particles -->
+  <g opacity="0.3">
+    <circle cx="100" cy="80" r="2" fill="#00D4FF" opacity="0.6">
+      <animate attributeName="opacity" values="0.6;0.2;0.6" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="300" cy="120" r="1.5" fill="#FF6B6B" opacity="0.5">
+      <animate attributeName="opacity" values="0.5;0.1;0.5" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="500" cy="60" r="2.5" fill="#61DAFB" opacity="0.7">
+      <animate attributeName="opacity" values="0.7;0.3;0.7" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="700" cy="100" r="1" fill="#4DB33D" opacity="0.4">
+      <animate attributeName="opacity" values="0.4;0.1;0.4" dur="3.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="900" cy="70" r="2" fill="#512BD4" opacity="0.6">
+      <animate attributeName="opacity" values="0.6;0.2;0.6" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1100" cy="90" r="1.5" fill="#336791" opacity="0.5">
+      <animate attributeName="opacity" values="0.5;0.1;0.5" dur="4s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  
+  <!-- Grid pattern -->
+  <g opacity="0.1" stroke="#00D4FF" stroke-width="0.5">
+    <line x1="0" y1="200" x2="1200" y2="200"/>
+    <line x1="0" y1="250" x2="1200" y2="250"/>
+    <line x1="0" y1="300" x2="1200" y2="300"/>
+    <line x1="0" y1="350" x2="1200" y2="350"/>
+  </g>
+  
+  <!-- Main name with glow effect -->
+  <text x="600" y="120" font-family="Arial, sans-serif" font-size="48" font-weight="bold" text-anchor="middle" fill="#FFFFFF" filter="url(#glow)">
+    Shahriar Parvez Shamim
+  </text>
+  
+  <!-- Subtitle -->
+  <text x="600" y="160" font-family="Arial, sans-serif" font-size="24" font-weight="300" text-anchor="middle" fill="#00D4FF" opacity="0.9">
+    Full Stack Developer
+  </text>
+  
+  <!-- Tech stack icons and labels -->
+  <g transform="translate(600, 220)">
+    <!-- MongoDB -->
+    <circle cx="-450" cy="0" r="25" fill="url(#mongoGradient)" stroke="#4DB33D" stroke-width="2"/>
+    <text x="-450" y="5" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="white">M</text>
+    <text x="-450" y="45" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#4DB33D">MongoDB</text>
+    
+    <!-- Express -->
+    <circle cx="-350" cy="0" r="25" fill="url(#expressGradient)" stroke="#404040" stroke-width="2"/>
+    <text x="-350" y="5" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="white">E</text>
+    <text x="-350" y="45" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#404040">Express</text>
+    
+    <!-- React -->
+    <circle cx="-250" cy="0" r="25" fill="url(#reactGradient)" stroke="#61DAFB" stroke-width="2"/>
+    <text x="-250" y="5" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="white">R</text>
+    <text x="-250" y="45" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#61DAFB">React</text>
+    
+    <!-- PostgreSQL -->
+    <circle cx="-150" cy="0" r="25" fill="url(#postgreGradient)" stroke="#336791" stroke-width="2"/>
+    <text x="-150" y="5" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="white">P</text>
+    <text x="-150" y="45" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#336791">PostgreSQL</text>
+    
+    <!-- .NET -->
+    <circle cx="-50" cy="0" r="25" fill="url(#dotnetGradient)" stroke="#512BD4" stroke-width="2"/>
+    <text x="-50" y="5" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="white">N</text>
+    <text x="-50" y="45" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#512BD4">.NET</text>
+    
+    <!-- SQL Server -->
+    <circle cx="50" cy="0" r="25" fill="url(#sqlGradient)" stroke="#CC2927" stroke-width="2"/>
+    <text x="50" y="5" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="white">S</text>
+    <text x="50" y="45" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#CC2927">SQL Server</text>
+    
+    <!-- NestJS -->
+    <circle cx="150" cy="0" r="25" fill="url(#nestjsGradient)" stroke="#E0234E" stroke-width="2"/>
+    <text x="150" y="5" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="white">N</text>
+    <text x="150" y="45" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#E0234E">NestJS</text>
+  </g>
+  
+  <!-- Decorative lines -->
+  <line x1="200" y1="320" x2="1000" y2="320" stroke="#00D4FF" stroke-width="2" opacity="0.6"/>
+  <line x1="200" y1="325" x2="1000" y2="325" stroke="#FF6B6B" stroke-width="1" opacity="0.4"/>
+  
+  <!-- Futuristic corner elements -->
+  <g opacity="0.7">
+    <!-- Top left corner -->
+    <path d="M 0 0 L 100 0 L 100 20 L 20 20 L 20 100 L 0 100 Z" fill="#00D4FF"/>
+    <path d="M 0 0 L 80 0 L 80 20 L 20 20 L 20 80 L 0 80 Z" fill="none" stroke="#FFFFFF" stroke-width="1"/>
+    
+    <!-- Top right corner -->
+    <path d="M 1200 0 L 1100 0 L 1100 20 L 1180 20 L 1180 100 L 1200 100 Z" fill="#FF6B6B"/>
+    <path d="M 1200 0 L 1120 0 L 1120 20 L 1180 20 L 1180 80 L 1200 80 Z" fill="none" stroke="#FFFFFF" stroke-width="1"/>
+    
+    <!-- Bottom left corner -->
+    <path d="M 0 400 L 100 400 L 100 380 L 20 380 L 20 300 L 0 300 Z" fill="#61DAFB"/>
+    <path d="M 0 400 L 80 400 L 80 380 L 20 380 L 20 320 L 0 320 Z" fill="none" stroke="#FFFFFF" stroke-width="1"/>
+    
+    <!-- Bottom right corner -->
+    <path d="M 1200 400 L 1100 400 L 1100 380 L 1180 380 L 1180 300 L 1200 300 Z" fill="#4DB33D"/>
+    <path d="M 1200 400 L 1120 400 L 1120 380 L 1180 380 L 1180 320 L 1200 320 Z" fill="none" stroke="#FFFFFF" stroke-width="1"/>
+  </g>
+  
+  <!-- Floating tech elements -->
+  <g opacity="0.4">
+    <text x="150" y="380" font-family="monospace" font-size="14" fill="#00D4FF">{ }</text>
+    <text x="1050" y="380" font-family="monospace" font-size="14" fill="#FF6B6B">&lt;/&gt;</text>
+    <text x="150" y="30" font-family="monospace" font-size="14" fill="#61DAFB">[]</text>
+    <text x="1050" y="30" font-family="monospace" font-size="14" fill="#4DB33D">()</text>
+  </g>
+</svg> 
